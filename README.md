@@ -1,13 +1,16 @@
-# token_15432.aleo
+# Update to SnarkOS v 2.2.4
 
 ## Build Guide
 
-To compile this Aleo program, run:
+To update to the recent snarkos release v 2.2.4
 ```bash
-snarkvm build
+git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 ```
-
-To execute this Aleo program, run:
+Then
 ```bash
-snarkvm run hello
+cd snarkOS
+```
+then for Ubuntu user
+```bash
+./build_ubuntu.sh
 ```
