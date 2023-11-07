@@ -1,6 +1,6 @@
-// The 'token_15432' program.
-program token_15432.aleo {
-   record Token {
+// The 'token_app' program.
+program token_app.aleo {
+    record Token {
     owner: address,
     balance: u32
    }
@@ -21,7 +21,7 @@ program token_15432.aleo {
 
     let sender: Token = Token {
         owner: self.caller,
-        balance
+        balance: balance
     };
     return (recipient, sender);
    }
