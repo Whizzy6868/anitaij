@@ -1,5 +1,5 @@
 APPNAME="token_app"
-PRIVATEKEY="APrivateKey1zkp9XUA2NvyVRNsEWcgnLspMS38QgAZTffyBu69RVE8mQ7A"
+PRIVATEKEY="Your privatekey"
 
 
 RECORD="{
