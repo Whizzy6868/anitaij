@@ -1,4 +1,10 @@
-program token_31000.aleo;
+program token_app.aleo;
+
+function hello:
+    input r0 as u32.public;
+    input r1 as u32.private;
+    add r0 r1 into r2;
+    output r2 as u32.private;
 
 record Token:
     owner as address.private;
@@ -20,3 +26,4 @@ function transfer:
     cast self.caller r3 into r5 as Token.record;
     output r4 as Token.record;
     output r5 as Token.record;
+
