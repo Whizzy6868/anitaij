@@ -33,3 +33,9 @@ then for Ubuntu user
 ``Click on the one for transfer (Desktop mode) scroll down a little bit``
 
 ``Connect your wallet, and then your record will be created.``
+
+### Socials
+##### Discord
+``StellaChioma#5364``
+##### Twitter
+``anitaijeoma2``
